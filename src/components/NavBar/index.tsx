@@ -15,7 +15,7 @@ export default function NavBar() {
             <div className={styles.top}>
                 <div className={styles.topBackground}>
                     <Image
-                        src="/static/lev2015/vermelhinho.jpg"
+                        src="/lev2015/vermelhinho.jpg"
                         alt="Background Image"
                         style={{objectFit:'cover', objectPosition:'100% 70%'}}
                         priority
