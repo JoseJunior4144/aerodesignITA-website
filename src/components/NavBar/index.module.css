@@ -139,7 +139,7 @@
     margin-left: auto;
     cursor: pointer;
     text-decoration: none;
-    transition: font-size 0.05s ease;
+    transition: font-size 0.1s ease-in;
 }
 
 .bottomNavIcons:hover{
@@ -167,7 +167,7 @@
     margin-left: auto;
     cursor: pointer;
     text-decoration: none;
-    transition: font-size 0.05s ease;
+    transition: font-size 0.01s ease-in;
 }
 
 .bottomButtonContainer{

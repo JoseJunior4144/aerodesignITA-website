@@ -15,10 +15,9 @@ export default function NavBar() {
             <div className={styles.top}>
                 <div className={styles.topBackground}>
                     <Image
-                        src="/lev2015/vermelhinho.jpg"
+                        src="/static/lev2015/vermelhinho.jpg"
                         alt="Background Image"
                         style={{objectFit:'cover', objectPosition:'100% 70%'}}
-                        decoding='sync'
                         priority
                         fill
                     />
@@ -27,7 +26,7 @@ export default function NavBar() {
                     <div className={styles.topLogoLayout3}>
                         <div className={styles.topLogoLayout2}>
                             <div className={styles.topLogoLayout1}>
-                                <img src="/logos/aerobranco.png" className={styles.topLogo} decoding="sync" loading="eager"/>
+                                <img src="/logos/aerobranco.png" className={styles.topLogo} loading="eager"/>
                             </div>
                         </div>
                     </div>
