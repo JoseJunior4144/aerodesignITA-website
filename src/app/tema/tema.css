@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); /*Oswald*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); /*Rajdhani */
+
+:root{
+    --primary-blue: #2d328f;
+    --secondary-blue: #4169e1;
+    --primary-yellow: #FFE300;
+    --secondary-yellow: #f2bc0e;
+    --primary-orange: #ee9911;
+    --secondary-orange: #f15c19;
+    --primary-white: #fff;
+    --primary-text-color: #fff;
+    --logo-font: Jasmine, sans-serif;
+    --text-font: Oswald, sans-serif;
+    --team-font: Rajdhani, sans-serif;
+}

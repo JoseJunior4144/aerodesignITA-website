@@ -1,0 +1,27 @@
+.buttonContainer {
+    display: inline-block;
+}
+  
+  .button {
+    transition: all 0.3s;
+    font-weight: bold;
+    background-color: var(--primary-yellow);
+    color: var(--primary-text-color); 
+    padding: 0.5em 1em; 
+    border: none;
+    border-radius: 0.3em; 
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); 
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.2); 
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1); 
+  }
+  
