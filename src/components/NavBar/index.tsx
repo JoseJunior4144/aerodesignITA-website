@@ -18,7 +18,8 @@ export default function NavBar() {
                         src="/lev2015/vermelhinho.jpg"
                         alt="Background Image"
                         style={{objectFit:'cover', objectPosition:'100% 70%'}}
-                        priority
+                        decoding="sync"
+                        priority={true}
                         fill
                     />
                 </div>
