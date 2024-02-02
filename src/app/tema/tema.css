@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); /*Oswald*/
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); /*Rajdhani */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap'); /* Inter & SpaceGrotesk */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 :root{
     --primary-blue: #2d328f;
@@ -10,7 +12,10 @@
     --secondary-orange: #f15c19;
     --primary-white: #fff;
     --primary-text-color: #fff;
+    --secondary-text-color: #fafafa;
     --logo-font: Jasmine, sans-serif;
     --text-font: Oswald, sans-serif;
+    --text-font-secondary: Space Grotesk, sans-serif;
+    --text-font-terthiary: Inter, sans-serif;
     --team-font: Rajdhani, sans-serif;
 }
