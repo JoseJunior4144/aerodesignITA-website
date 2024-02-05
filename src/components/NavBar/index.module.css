@@ -94,14 +94,15 @@
     
 .bottom{
     display: grid;
-    grid-template-areas: 'logo navicons button';
+    grid-template-areas: 'logo navicons';
     grid-template-rows: 1fr;
-    grid-template-columns: auto 5fr 1fr;
+    grid-template-columns: auto 5fr;
     background-color: var(--primary-blue);
     border-radius: 0 0 0.2vw 0.2vw;
     box-shadow: 0 1vw 2vw 0.5vw rgba(0, 0, 0, 0.5);
     align-items: center;
     z-index: 0;
+    padding: 0 2vw 0 0;
 }
 
 .bottomLogoContainer{
@@ -168,32 +169,6 @@
     cursor: pointer;
     text-decoration: none;
     transition: font-size 0.01s ease-in;
-}
-
-.bottomButtonContainer{
-    grid-area: button;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 0.5vw;
-    align-items: center;
-    width: 100%;
-}
-
-.bottomButton1{
-    display: flex;
-    align-items: center;
-    background-color: brown;
-    font-size: 1.3vw;
-    margin-left: 1vw;
-}
-
-.bottomButton2{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    font-size: 1.5vw;
 }
 
 .bottom{
