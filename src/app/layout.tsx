@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./tema/globals.css";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
