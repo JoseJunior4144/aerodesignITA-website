@@ -33,13 +33,14 @@ export default function Home() {
         <div className={styles.sponsors}>
           <p className={styles.sponsorsTitle}> Quem apoia a nossa missão </p> 
           <div className={styles.sponsorsLogoContainer}>
-            <Image src="/patrocinio/itaex.png" alt="itaex" sizes="100vw" width={0} height={0}   className={styles.sponsorsLogo}/>
+            <Image src="/patrocinio/itaex.png" alt="itaex" sizes="100vw" width={0} height={0} className={styles.sponsorsLogo}/>
             <Image src="/patrocinio/onshape.png" alt="onshape"   sizes="100vw" width={0} height={0}   className={styles.sponsorsLogo}/>
             <Image src="/patrocinio/simscale.svg" alt="simscale"  sizes="100vw" width={0} height={0}  className={styles.sponsorsLogo}/>
             <Image src="/patrocinio/feng.jpg" alt="feng"  sizes="100vw" width={0} height={0}  className={styles.sponsorsLogo}/>
+            <Image src="/logos/ita.png" alt="ita"  sizes="100vw" width={0} height={0}  className={styles.sponsorsLogo}/>
           </div>
           <Button onClick={() => router.push('/patrocinio')} style={{backgroundColor:'var(--secondary-yellow)',fontSize:'1.5vw'}}>
-            Patrocinadores
+            Conheça os Patrocinadores
           </Button>
         </div>
         <div>
