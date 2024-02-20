@@ -1,7 +1,7 @@
 export default function Competition(){
     return(
         <div>
-            SAE Brasil
+            Em construção...
         </div>
     )
 }

@@ -1,7 +1,7 @@
 export default function Gallery(){
     return(
         <div>
-            Nossos projetos
+            Em construção...
         </div>
     )
 }

@@ -1,7 +1,7 @@
 export default function Sponsorship(){
     return(
         <div>
-            Nossos Patrocinadores
+            Em construção...
         </div>
     )
 }

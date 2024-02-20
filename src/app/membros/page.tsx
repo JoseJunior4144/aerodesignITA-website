@@ -1,7 +1,7 @@
 export default function TeamMembers(){
     return(
         <div>
-            Nossa equipe
+            Em construção...
         </div>
     )
 }

@@ -40,11 +40,8 @@ export default function Home() {
             <Image src="/logos/ita.png" alt="ita"  sizes="100vw" width={0} height={0}  className={styles.sponsorsLogo}/>
           </div>
           <Button onClick={() => router.push('/patrocinio')} style={{backgroundColor:'var(--secondary-yellow)',fontSize:'1.5vw'}}>
-            Conheça os Patrocinadores
+            Patrocinadores
           </Button>
-        </div>
-        <div>
-          Hello
         </div>
     </main>
   );
