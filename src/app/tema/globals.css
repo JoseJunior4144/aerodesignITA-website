@@ -6,6 +6,7 @@ body{
     margin: 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    font-size: 5vw;
 }
 
 body::-webkit-scrollbar {
