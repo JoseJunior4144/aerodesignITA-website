@@ -27,7 +27,7 @@
     font-family: var(--text-font-terthiary);
     font-weight: 400;
     font-size: 1.5vw;
-    color: var(--secondary-text-color);
+    color: red;
 }
 
 .aboutImageContainer{
